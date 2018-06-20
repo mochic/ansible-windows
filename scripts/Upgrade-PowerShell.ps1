@@ -91,7 +91,7 @@ if ($verbose) {
     $VerbosePreference = "Continue"
 }
 
-$tmp_dir = C:\TEMP
+$tmp_dir = "C:\TEMP"
 if (-not (Test-Path -Path $tmp_dir)) {
     New-Item -Path $tmp_dir -ItemType Directory > $null
 }
